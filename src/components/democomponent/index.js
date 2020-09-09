@@ -54,7 +54,7 @@ handleSubmit=(e)=>{
 }
 
 render(){
-const {username, password, response} = this.state;
+const {username, password, response, error} = this.state;
 
     return (
                 <>
